@@ -25,3 +25,7 @@ Para actualizar los submodulos, ejecutar en terminal:
 Finalmente, registrar el plugin como fuente de autenticación en la base de datos de OJS:
 
     INSERT INTO auth_sources(auth_id,title,plugin,auth_default) VALUES(1,'LDAP UPCH','ldap-upch',1);
+
+## Plugin DEV
+
+Para la creación y actualización de plugins de PKP, leer la [Guía de Desarrollo de Plugins](https://docs.pkp.sfu.ca/dev/plugin-guide/en/settings).
