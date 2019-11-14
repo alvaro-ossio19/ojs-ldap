@@ -12,10 +12,10 @@
   -->
  
 <locale name="es_ES" full_name="Español (España)">
-	<message key="plugins.auth.ldap.displayName">LDAP</message>
-	<message key="plugins.auth.ldap.description">Este módulo permite autentificación y sincronización de cuentas de usuario con un servidor LDAP externo.</message>
+	<message key="plugins.auth.ldap.displayName">LDAP UPCH</message>
+	<message key="plugins.auth.ldap.description">Este módulo permite autentificación y sincronización de cuentas de usuario con un servidor LDAP de la Universidad Peruana Cayetano Heredia.</message>
 	
-	<message key="plugins.auth.ldap.settings">Configuración de LDAP</message>
+	<message key="plugins.auth.ldap.settings">Configuración de LDAP UPCH</message>
 	<message key="plugins.auth.ldap.settings.hostname">Nombre del servidor</message>
 	<message key="plugins.auth.ldap.settings.hostname.description">Por ejemplo, "ldap.example.com", o "ldaps://ldap.example.com" (para usar SSL)</message>
 	<message key="plugins.auth.ldap.settings.port">Puerto del servidor</message>
