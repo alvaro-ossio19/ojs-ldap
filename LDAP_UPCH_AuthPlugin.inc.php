@@ -40,9 +40,9 @@ class LDAP_UPCH_AuthPlugin extends AuthPlugin
      * @return boolean True iff plugin initialized successfully; if false,
      * the plugin will not be registered.
      */
-    public function register($category, $path)
+    public function register($category, $path, $mainContextId = null)
     {
-        $success = parent::register($category, $path);
+        $success = parent::register($category, $path, $mainContextId);
         $this->addLocaleData();
         return $success;
     }
